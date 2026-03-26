@@ -17,6 +17,11 @@ This system acts like:
 
 > **"ChatGPT for your enterprise data."**
 
+<img width="1465" height="815" alt="Screenshot 2026-03-26 at 3 06 44 PM" src="https://github.com/user-attachments/assets/290e181e-b6c7-4f78-9dfa-a92135f8a45f" />
+<img width="1470" height="836" alt="Screenshot 2026-03-26 at 3 07 10 PM" src="https://github.com/user-attachments/assets/2782b782-3203-441c-bdc0-025da88665e9" />
+<img width="1467" height="806" alt="Screenshot 2026-03-26 at 3 09 25 PM" src="https://github.com/user-attachments/assets/985b42dc-c96a-4d9e-81ec-32a35a0fedc4" />
+<img width="1464" height="829" alt="Screenshot 2026-03-26 at 3 11 13 PM" src="https://github.com/user-attachments/assets/67c44f51-f12e-4201-9f39-0954c8cd387d" />
+
 ---
 
 ## ⚡ Core Capabilities
