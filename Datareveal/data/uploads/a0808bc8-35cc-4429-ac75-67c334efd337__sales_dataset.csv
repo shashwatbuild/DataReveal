@@ -1,0 +1,21 @@
+Order_ID,Order_Date,Region,Country,City,Customer_ID,Customer_Name,Segment,Product_Category,Product_Sub_Category,Product_Name,Sales,Quantity,Discount,Profit,Payment_Mode,Shipping_Mode
+1001,2024-01-05,West,India,Mumbai,C001,Rahul Sharma,Consumer,Electronics,Mobile,iPhone 14,80000,1,0.05,12000,Credit Card,Express
+1002,2024-01-07,North,India,Delhi,C002,Priya Verma,Corporate,Furniture,Chair,Office Chair,5000,2,0.1,800,UPI,Standard
+1003,2024-01-10,South,India,Bangalore,C003,Amit Kumar,Home Office,Electronics,Laptop,Dell XPS 13,95000,1,0.08,15000,Debit Card,Express
+1004,2024-01-12,East,India,Kolkata,C004,Neha Singh,Consumer,Clothing,Men,T-Shirt,1200,3,0.15,200,COD,Standard
+1005,2024-01-15,West,India,Pune,C005,Vikas Gupta,Corporate,Electronics,Accessories,Wireless Mouse,1500,5,0.1,300,UPI,Standard
+1006,2024-01-18,North,India,Chandigarh,C006,Anjali Mehta,Consumer,Furniture,Table,Study Table,7000,1,0.07,1200,Credit Card,Express
+1007,2024-01-20,South,India,Hyderabad,C007,Rohan Das,Home Office,Electronics,Mobile,Samsung S23,70000,1,0.06,10000,Debit Card,Express
+1008,2024-01-22,East,India,Bhubaneswar,C008,Sneha Roy,Consumer,Clothing,Women,Kurti,1800,2,0.12,300,COD,Standard
+1009,2024-01-25,West,India,Ahmedabad,C009,Karan Patel,Corporate,Furniture,Sofa,Sofa Set,25000,1,0.2,4000,UPI,Standard
+1010,2024-01-28,North,India,Jaipur,C010,Simran Kaur,Consumer,Electronics,Accessories,Bluetooth Speaker,3000,2,0.1,600,Debit Card,Standard
+1011,2024-02-02,South,India,Chennai,C011,Arjun Reddy,Corporate,Electronics,Laptop,MacBook Air,120000,1,0.05,20000,Credit Card,Express
+1012,2024-02-05,East,India,Guwahati,C012,Ritu Das,Consumer,Clothing,Kids,Kids Jacket,2200,2,0.15,350,COD,Standard
+1013,2024-02-08,West,India,Nagpur,C013,Sachin Jain,Home Office,Electronics,Mobile,OnePlus 11,60000,1,0.07,9000,UPI,Express
+1014,2024-02-12,North,India,Lucknow,C014,Meera Gupta,Consumer,Furniture,Bed,Double Bed,30000,1,0.18,5000,Credit Card,Standard
+1015,2024-02-15,South,India,Kochi,C015,Deepak Nair,Corporate,Electronics,Accessories,Keyboard,2500,3,0.1,500,Debit Card,Standard
+1016,2024-02-18,East,India,Patna,C016,Pooja Kumari,Consumer,Clothing,Women,Saree,3500,2,0.12,600,COD,Standard
+1017,2024-02-22,West,India,Surat,C017,Hitesh Shah,Corporate,Furniture,Chair,Executive Chair,8000,2,0.15,1200,UPI,Express
+1018,2024-02-25,North,India,Amritsar,C018,Gurpreet Singh,Consumer,Electronics,Mobile,Redmi Note 12,15000,2,0.1,2000,Credit Card,Standard
+1019,2024-03-01,South,India,Mysore,C019,Kavya Iyer,Home Office,Electronics,Laptop,HP Pavilion,55000,1,0.08,8000,Debit Card,Express
+1020,2024-03-05,East,India,Ranchi,C020,Manish Yadav,Consumer,Clothing,Men,Jeans,2000,3,0.1,400,COD,Standard
