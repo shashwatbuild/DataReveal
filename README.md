@@ -1,49 +1,218 @@
-# DataReveal
+# 🚀 DataReveal AI — Enterprise RAG + SQL Intelligence System
 
-Where your data reveals its story.
+> **"Reveal insights from any data — structured or unstructured — instantly."**
 
-DataReveal is a local-first RAG + SQL chatbot with:
-- FastAPI backend for uploads and question answering
-- Streamlit frontend for the chat experience
-- Ollama for local LLM and embedding inference
-- SQLite for tabular datasets and FAISS for document retrieval
+---
 
-## Prerequisites
+## 🧠 Overview
 
-- Python 3.10+ recommended
-- Ollama running locally
-- Required Ollama models:
-  - `OLLAMA_CHAT_MODEL` (default `llama3`)
-  - `OLLAMA_EMBED_MODEL` (default `nomic-embed-text`)
+**DataReveal AI** is a production-grade AI-powered data platform that allows users to interact with their data using natural language.
 
-## Setup
+It intelligently processes both:
 
-Install dependencies:
+* 📊 **Structured Data (CSV / Excel)** → via SQL Agent
+* 📄 **Unstructured Data (PDF / Text)** → via RAG (Retrieval-Augmented Generation)
 
-```bash
-pip install -r requirements.txt
+This system acts like:
+
+> **"ChatGPT for your enterprise data."**
+
+---
+
+## ⚡ Core Capabilities
+
+* 📂 Upload any data (CSV, Excel, PDF, Text)
+* 💬 Ask questions in natural language
+* 🤖 Intelligent routing:
+
+  * SQL Agent → for tabular insights
+  * RAG Pipeline → for document understanding
+* 📊 Generate accurate, data-backed insights
+* 🧠 AI explanations for query results
+* 🔍 Context-aware responses using embeddings
+
+---
+
+## 🏗️ System Architecture
+
+```
+Frontend (Streamlit Chat UI)
+        ↓
+FastAPI Backend
+        ↓
+🧭 Router Agent (RAG vs SQL Decision)
+        ↓
+┌──────────────┬───────────────┬──────────────┐
+│ RAG Pipeline │ SQL Engine    │ File Manager │
+└──────────────┴───────────────┴──────────────┘
+        ↓               ↓
+   Vector DB        Pandas/DB
+        ↓               ↓
+        └──────→ LLM (Ollama/OpenAI) ←──────┘
+                        ↓
+                Final AI Response
 ```
 
-## Run backend
+---
 
-```bash
-uvicorn backend.api:app --reload --host 0.0.0.0 --port 8000
+## 🤖 Intelligent Agent System
+
+This platform is powered by modular AI agents:
+
+### 📁 Data Upload Agent
+
+Handles file ingestion and validation
+
+### 🧹 Preprocessing Agent
+
+Cleans and standardizes raw data
+
+### ✂️ Chunking Agent (RAG)
+
+Splits text into meaningful chunks
+
+### 🔗 Embedding Agent
+
+Converts data into vector embeddings
+
+### 🗄️ Vector Store Agent
+
+Stores embeddings using FAISS
+
+### 🔍 Retrieval Agent
+
+Fetches relevant context
+
+### 🧠 SQL Generation Agent
+
+Converts natural language → SQL
+
+### ⚙️ Query Execution Agent
+
+Executes safe SQL queries
+
+### 🧠 Response Agent
+
+Generates human-like answers
+
+### 🧭 Router Agent (Core Brain)
+
+Decides between SQL vs RAG flow
+
+---
+
+## 🔁 Workflow
+
+### 📥 Data Ingestion
+
+* Upload file
+* Clean & preprocess
+* Store:
+
+  * Text → Vector DB
+  * CSV → Query-ready
+
+---
+
+### 💬 Query Processing
+
+1. User asks a question
+2. Router decides:
+
+   * SQL → Generate & execute query
+   * RAG → Retrieve relevant context
+3. LLM generates final answer
+
+---
+
+## 🛠️ Tech Stack
+
+* **Language:** Python
+* **LLM:** OpenAI / Ollama
+* **Framework:** LangChain
+* **Backend:** FastAPI
+* **Frontend:** Streamlit
+* **Vector DB:** FAISS
+* **Data Processing:** Pandas
+* **Optional:** SQLite / Snowflake
+
+---
+
+## 📁 Project Structure
+
+```
+rag-enterprise/
+│
+├── frontend/
+├── backend/
+├── agents/
+├── rag/
+├── data/
+├── utils/
+├── requirements.txt
+└── README.md
 ```
 
-## Run frontend
+---
 
-```bash
-streamlit run frontend/streamlit_app.py --server.port 8501
-```
+## 🔐 Key Design Principles
 
-## Environment variables
+* ❌ No hallucination — answers must use data
+* 🔍 Context-first responses
+* 🔒 Safe SQL execution (read-only)
+* 🧩 Modular agent-based architecture
+* ⚡ Scalable & production-ready
 
-- `OLLAMA_BASE_URL` default: `http://localhost:11434`
-- `OLLAMA_CHAT_MODEL` default: `llama3`
-- `OLLAMA_EMBED_MODEL` default: `nomic-embed-text`
-- `SQL_ROW_LIMIT` default: `50`
+---
 
-## Notes
+## 🚀 Deployment Strategy
 
-- SQL execution is SELECT-only with safety validation and enforced LIMIT.
-- RAG answers are grounded in retrieved FAISS chunks.
+* 🖥️ Local: Ollama
+* 🐳 Dockerized services
+* ☁️ Azure App Service (Backend)
+* 🌐 Streamlit Cloud (Frontend)
+
+---
+
+## 🧪 Testing
+
+* Upload datasets
+* Test:
+
+  * RAG queries
+  * SQL queries
+* Validate accuracy & performance
+
+---
+
+## 🌟 Why This Project is Unique
+
+* Combines **RAG + SQL + AI Agents** in one system
+* Works on **any data format**
+* Mimics real-world enterprise AI platforms
+* Demonstrates **Data Engineering + AI + Backend + System Design**
+
+---
+
+## 🎯 Final Vision
+
+> **"A unified AI system that replaces dashboards, BI tools, and manual analysis."**
+
+---
+
+## 👨‍💻 Author
+
+**Shashwat Saxena**
+Azure Data Engineer | AI Systems Builder
+
+---
+
+## 🔥 Taglines
+
+* **"From raw data to real intelligence."**
+* **"Ask your data. Get real answers."**
+* **"One system. Any data. Infinite insights."**
+
+---
+
+⭐ Star this repo if you believe in AI-powered data systems!
