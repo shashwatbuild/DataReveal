@@ -2,6 +2,21 @@
 
 > **"Reveal insights from any data — structured or unstructured — instantly."**
 
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3.12+-blue?logo=python"/>
+<img src="https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi"/>
+<img src="https://img.shields.io/badge/Streamlit-Frontend-FF4B4B?logo=streamlit"/>
+<img src="https://img.shields.io/badge/LangChain-AI%20Framework-black"/>
+<img src="https://img.shields.io/badge/RAG-Enabled-purple"/>
+<img src="https://img.shields.io/badge/SQL-Agent-blue"/>
+<img src="https://img.shields.io/badge/FAISS-VectorDB-orange"/>
+<img src="https://img.shields.io/badge/Ollama-LLM-orange"/>
+<img src="https://img.shields.io/badge/OpenAI-LLM-412991?logo=openai"/>
+<img src="https://img.shields.io/badge/License-MIT-green"/>
+
+</p>
+
 ---
 
 ## 🧠 Overview
