@@ -1,4 +1,4 @@
-# 🚀 DataReveal AI — Enterprise RAG + SQL Intelligence System
+# 💻 DataReveal AI — Enterprise RAG + SQL Intelligence System
 
 > **"Reveal insights from any data — structured or unstructured — instantly."**
 
